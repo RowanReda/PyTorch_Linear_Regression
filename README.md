@@ -1,4 +1,11 @@
 # PyTorch Regression: Linear Regression using ANN
+## Project Description
+This project implements linear regression models using Artificial Neural Networks (ANNs) in PyTorch to analyze the relationship between housing prices and various features in a dataset. Two separate notebooks are provided:
+
+1. Area Only Model: This notebook focuses solely on predicting housing prices using the 'area' feature.
+2. All Features Model: This notebook utilizes all available features in the dataset for predictions.
+   
+The goal is to build, train, and evaluate both models, aiming for an expected R-squared value of +0.75. The project includes data preprocessing, normalization, and performance evaluation metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared. Visualizations are included to compare predicted prices against actual values, demonstrating the effectiveness of each model.
 
 ## Objective
 This project aims to perform linear regression using an Artificial Neural Network (ANN) implemented in PyTorch. The objective is to analyze the relationship between housing prices and the area in a dataset, build and train the ANN model, and evaluate its performance.
